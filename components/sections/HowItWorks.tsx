@@ -6,7 +6,7 @@ const steps = [
   {
     num: "01",
     title: "Load the cartridge",
-    body: "Snap your NanoBana dual-chamber cartridge into the reusable pen body. No syringes. No mixing vessels. No contamination risk. Simply click and it locks.",
+    body: "Snap your DUE║MIX dual-chamber cartridge into the reusable pen body. No syringes. No mixing vessels. No contamination risk. Simply click and it locks.",
     detail: "Compatible with standard 3mL dual-chamber cartridges with 9.7mm inner diameter.",
   },
   {

@@ -31,13 +31,13 @@ export default function ForClinics() {
             <em className="italic text-[#5A5A52]"> who demand certainty.</em>
           </h2>
           <p className="text-[15px] font-light leading-relaxed text-[#8A8A80] mb-10">
-            NanoBana partners with wellness clinics, longevity practitioners, and
+            DUE║MIX partners with wellness clinics, longevity practitioners, and
             research institutions across the UK and EU. Our B2B programme offers
             wholesale pricing, custom branding, and priority dispatch — with the
             same research-grade quality standards.
           </p>
           <a
-            href="mailto:clinics@nanobana.com"
+            href="mailto:hello@duemix.com"
             className="btn-pill self-start"
             style={{
               background: "transparent",

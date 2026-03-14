@@ -1,4 +1,4 @@
-import PenIllustration from "@/components/ui/PenIllustration";
+import Image from "next/image";
 
 const specs = [
   { key: "Cartridge compatibility", val: "3mL dual-chamber, 9.7mm inner diameter" },
@@ -30,17 +30,25 @@ export default function Product() {
           The device
         </p>
         <h2 className="font-serif text-[clamp(36px,5vw,60px)] font-light leading-[1.1] text-[#0A0A08]">
-          NanoBana Dual-Chamber Pen
+          DUE║MIX Dual-Chamber Pen
         </h2>
       </div>
 
       {/* Product grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 border-b-hairline">
-        {/* Pen visual */}
-        <div className="flex flex-col items-center justify-center py-20 px-8 bg-[#EDEAE2] border-r-hairline min-h-[400px]">
-          <PenIllustration className="h-[360px] pen-float" />
-          <p className="text-[11px] font-light tracking-wider uppercase text-[#B8B5A8] mt-6">
-            NanoBana Pen — Matte Slate Edition
+        {/* Product photo */}
+        <div className="relative overflow-hidden bg-[#1A1A16] border-r-hairline min-h-[480px]">
+          <Image
+            src="/hero-product.jpg"
+            alt="DUE║MIX pen with needle kit — full unboxed set"
+            fill
+            className="object-cover object-center opacity-90"
+          />
+          <div className="absolute bottom-0 left-0 right-0 h-24"
+            style={{ background: "linear-gradient(to top, rgba(26,26,22,0.8), transparent)" }}
+          />
+          <p className="absolute bottom-5 left-0 right-0 text-center text-[11px] font-light tracking-wider uppercase text-[#8A8A80]">
+            DUE║MIX Pen — Champagne Edition with Needle Kit
           </p>
         </div>
 

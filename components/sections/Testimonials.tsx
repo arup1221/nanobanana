@@ -8,7 +8,7 @@ const testimonials = [
   },
   {
     quote:
-      "We've switched our entire clinic to NanoBana cartridges. The consistency in potency between doses is remarkable — our clients report noticeably better outcomes.",
+      "We've switched our entire clinic to DUE║MIX cartridges. The consistency in potency between doses is remarkable — our clients report noticeably better outcomes.",
     name: "Dr. S. Patel",
     title: "Director, Precision Wellness Clinic, London",
     initials: "SP",
