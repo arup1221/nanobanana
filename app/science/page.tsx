@@ -3,7 +3,7 @@ import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "The Science — NanoBana",
+  title: "The Science — DUE║MIX",
   description:
     "How dual-chamber architecture preserves peptide potency. The science behind lyophilisation, hydrolysis, and reconstitution at point of injection.",
 };
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is lyophilisation and why does it matter?",
-    a: "Lyophilisation (freeze-drying) removes water from a peptide compound by freezing it and then reducing the surrounding pressure to allow the frozen water to sublimate. The result is a dry powder that is far more stable than the liquid form. By keeping the powder dry and separate from the diluent until injection, NanoBana preserves near-complete bioactivity.",
+    a: "Lyophilisation (freeze-drying) removes water from a peptide compound by freezing it and then reducing the surrounding pressure to allow the frozen water to sublimate. The result is a dry powder that is far more stable than the liquid form. By keeping the powder dry and separate from the diluent until injection, DUE║MIX preserves near-complete bioactivity.",
   },
   {
     q: "What is hydrolysis and how does it degrade peptides?",
@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     q: "Does the pen work with all peptides?",
-    a: "NanoBana cartridges are pre-filled and matched to specific peptides with appropriate diluent formulations. You cannot use third-party vials in the pen — the dual-chamber design requires matched cartridges. We offer a growing catalogue of research peptides in compatible cartridges.",
+    a: "DUE║MIX cartridges are pre-filled and matched to specific peptides with appropriate diluent formulations. You cannot use third-party vials in the pen — the dual-chamber design requires matched cartridges. We offer a growing catalogue of research peptides in compatible cartridges.",
   },
   {
     q: "Is the pen CE marked?",
-    a: "The NanoBana pen body is CE-marked under the EU Medical Device Regulation (MDR). The cartridges are manufactured under GMP conditions. All batches are tested by HPLC for purity and confirmed by mass spectrometry.",
+    a: "The DUE║MIX pen body is CE-marked under the EU Medical Device Regulation (MDR). The cartridges are manufactured under GMP conditions. All batches are tested by HPLC for purity and confirmed by mass spectrometry.",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function SciencePage() {
           <p className="text-[16px] font-light leading-relaxed text-[#5A5A52] max-w-2xl">
             Peptides are fragile. Pre-mixing a lyophilised peptide with its
             diluent triggers an irreversible clock — hydrolysis begins, potency
-            decays. NanoBana stops that clock until the moment you need it.
+            decays. DUE║MIX stops that clock until the moment you need it.
           </p>
         </div>
 

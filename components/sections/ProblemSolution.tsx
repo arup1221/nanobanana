@@ -53,14 +53,14 @@ export default function ProblemSolution() {
         {/* Solution */}
         <div className="px-8 lg:px-16 py-16 lg:py-24 bg-[#0A0A08] text-[#F5F4EF]">
           <p className="text-[11px] font-light tracking-[0.25em] uppercase text-[#5A5A52] mb-6">
-            The NanoBana solution
+            The DUE║MIX solution
           </p>
           <h2 className="font-serif text-[clamp(32px,4vw,48px)] font-light leading-[1.15] text-[#F5F4EF] mb-8">
             Reconstituted at the moment of injection.
             <em className="italic text-[#8A8A80]"> Not before.</em>
           </h2>
           <p className="text-[15px] font-light leading-relaxed text-[#8A8A80] mb-6">
-            NanoBana's dual-chamber architecture hermetically seals lyophilised
+            DUE║MIX's dual-chamber architecture hermetically seals lyophilised
             peptide powder and sterile diluent in separate chambers within the same
             cartridge. They never touch until you're ready.
           </p>
@@ -73,7 +73,7 @@ export default function ProblemSolution() {
           {/* Potency comparison */}
           <div className="p-6 bg-[#1A1A16] rounded-xl">
             <p className="text-[11px] font-light tracking-wider uppercase text-[#5A5A52] mb-4">
-              NanoBana potency at injection
+              DUE║MIX potency at injection
             </p>
             <div className="flex items-center gap-3">
               <p className="text-[11px] font-light text-[#5A5A52] w-36 shrink-0">

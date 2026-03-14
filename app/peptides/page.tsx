@@ -3,9 +3,9 @@ import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Peptide Catalogue — NanoBana",
+  title: "Peptide Catalogue — DUE║MIX",
   description:
-    "Browse the full NanoBana dual-chamber cartridge catalogue. Research-grade lyophilised peptides including BPC-157, TB-500, CJC-1295, Semaglutide, and more.",
+    "Browse the full DUE║MIX dual-chamber cartridge catalogue. Research-grade lyophilised peptides including BPC-157, TB-500, CJC-1295, Semaglutide, and more.",
 };
 
 type Category = "All" | "Recovery" | "Hormone" | "Metabolic" | "Cognitive";
@@ -77,7 +77,7 @@ export default function PeptidesPage() {
               <div className="w-full h-36 bg-[#EDEAE2] group-hover:bg-[#D8D5C8] rounded-xl mb-6 transition-colors duration-200 flex items-center justify-center">
                 <div className="text-center">
                   <p className="text-[10px] font-light tracking-[0.15em] uppercase text-[#8A8A80] mb-1">
-                    NanoBana
+                    DUE║MIX
                   </p>
                   <p className="text-[15px] font-medium text-[#0A0A08]">{name}</p>
                   <div className="mt-1 mx-auto w-16 h-4 bg-[#0A0A08] rounded flex items-center justify-center">
@@ -116,7 +116,7 @@ export default function PeptidesPage() {
             laboratory investigation. They are not intended for human consumption,
             veterinary use, or any therapeutic application. These statements have
             not been evaluated by the MHRA, FDA, or any other regulatory body.
-            NanoBana Ltd accepts no liability for misuse of these compounds.
+            DUE║MIX Ltd accepts no liability for misuse of these compounds.
           </p>
         </div>
       </div>

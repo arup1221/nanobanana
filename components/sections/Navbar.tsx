@@ -25,11 +25,16 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-3">
+          {/* DUE║MIX II chamber mark */}
+          <span className="flex items-center gap-[3px]">
+            <span className="block w-[3px] h-6 bg-[#0A0A08] rounded-full" />
+            <span className="block w-[3px] h-6 bg-[#0A0A08] rounded-full" />
+          </span>
           <span
             className="font-serif text-xl lg:text-2xl font-light tracking-[0.2em] text-[#0A0A08] uppercase"
           >
-            NanoBana
+            DUE║MIX
           </span>
         </Link>
 

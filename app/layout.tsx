@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NanoBana — Dual-Chamber Peptide Pen",
+  title: "DUE║MIX — DUE║MIX™ Dual-Chamber Mixing System",
   description:
     "The world's first consumer-grade dual-chamber peptide pen. Powder and diluent, perfectly separated. Reconstituted at the moment of injection.",
   keywords: ["peptide pen", "dual chamber", "peptide delivery", "research peptides", "injection pen"],
   openGraph: {
-    title: "NanoBana — Precision lives in two chambers.",
+    title: "DUE║MIX — DUE║MIX™ — Two chambers. One perfect dose.",
     description:
-      "Lyophilised peptides. Maximum potency. Reconstituted only at the moment of delivery.",
+      "Powered by DUE║MIX™ dual-chamber technology. Maximum peptide potency — reconstituted only at the moment of injection.",
     type: "website",
   },
 };

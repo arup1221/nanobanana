@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Brand column */}
         <div className="px-8 lg:px-16 py-14 border-r-hairline">
           <p className="font-serif text-2xl font-light tracking-[0.2em] text-[#0A0A08] uppercase mb-4">
-            NanoBana
+            DUE║MIX
           </p>
           <p className="text-[13px] font-light leading-relaxed text-[#8A8A80] max-w-xs mb-8">
             The world's first consumer-grade dual-chamber peptide pen. Maximum
@@ -61,7 +61,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="px-8 lg:px-16 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-[11px] font-light text-[#B8B5A8]">
-          © 2025 NanoBana Ltd. Registered in England & Wales. All rights reserved.
+          © 2025 DUE║MIX Ltd. Registered in England & Wales. All rights reserved.
         </p>
         <div className="flex gap-6">
           {["Privacy Policy", "Terms of Sale", "Cookie Settings"].map((l) => (
